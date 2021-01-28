@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="1" nextlayerid="12" nextobjectid="10">
+ <tileset firstgid="1" name="Platforms" tilewidth="32" tileheight="32" tilecount="10" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="2">
+   <image width="32" height="32" source="../Blocks/Block_Rotate_Down.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="../Blocks/Block_Rotate_Up.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="../Blocks/Blocks_Rotate_Left.png"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="../Blocks/Brick_Rotate_Right.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="../Blocks/Ground.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="../Blocks/Angle_Left_Down.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="../Blocks/Angle_Right_Down.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="../Blocks/Angle_Right_Up.png"/>
+  </tile>
+  <tile id="12">
+   <image width="32" height="32" source="../Blocks/Angle_Left_Up.png"/>
+  </tile>
+  <tile id="13">
+   <image width="32" height="32" source="../Back_Ground/Лианы.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="15" name="SpeedBoost" tilewidth="32" tileheight="32" tilecount="4" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="32" height="32" source="../Blocks/Speed_Boost.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="../Blocks/Speed_Boost1.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="../Blocks/Speed_Boost2.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="../Blocks/Speed_Boost3.png"/>
+  </tile>
+ </tileset>
+ <layer id="6" name="BackGround" width="100" height="100">
+  <data encoding="base64" compression="zstd"/>
+ </layer>
+ <layer id="1" name="Platforms" width="100" height="100" offsetx="29.3333" offsety="-39.3333">
+  <data encoding="base64" compression="zstd">
+   <chunk x="-16" y="-16" width="16" height="16">
+   KLUv/WAAA20AADAAAAcAAAABAPcrgAU=
+  </chunk>
+   <chunk x="0" y="-16" width="16" height="16">
+   KLUv/WAAA2UAABgAAAcCANxJYncFsA==
+  </chunk>
+   <chunk x="16" y="-16" width="16" height="16">
+   KLUv/WAAA2UAABgAAAcCANxJYncFsA==
+  </chunk>
+   <chunk x="32" y="-16" width="16" height="16">
+   KLUv/WAAA20AACAAAAcAAgADEt5dASw=
+  </chunk>
+   <chunk x="-16" y="0" width="16" height="16">
+   KLUv/WAAA4UAACAAAAcAAwCBh1CBAQn/BFg=
+  </chunk>
+   <chunk x="0" y="0" width="16" height="16">
+   KLUv/WAAAwUCAMALAAAAAwYADAAAAAQLCgYFAAUNAAAABwQQoLDe0gEwg4xbDEG8fT0QnZSSqKrRiNRFo1MdYfZ0dUiKkQSWqg0=
+  </chunk>
+   <chunk x="16" y="0" width="16" height="16">
+   KLUv/WAAA4UBAHADAAAACgAOBQAEDQAAABKgkNcYgEPnWAqo1z7XPa8qrMpWBVkdlJw9PTXS0/20KQ==
+  </chunk>
+   <chunk x="32" y="0" width="16" height="16">
+   KLUv/WAAA4UAACAHAAcAAwB9h1CBAQlPAlg=
+  </chunk>
+   <chunk x="-16" y="16" width="16" height="16">
+   KLUv/WAAA20AACAAAAcAAgC/QYV/Aiw=
+  </chunk>
+   <chunk x="0" y="16" width="16" height="16">
+   KLUv/WAAA20AACAHAAAAAgC9QQWy5Ig=
+  </chunk>
+   <chunk x="16" y="16" width="16" height="16">
+   KLUv/WAAA20AACAHAAAAAgC9QQWy5Ig=
+  </chunk>
+   <chunk x="32" y="16" width="16" height="16">
+   KLUv/WAAA00AABAHAAEA+yuABQ==
+  </chunk>
+  </data>
+ </layer>
+ <layer id="5" name="Die_Blocks" width="100" height="100">
+  <data encoding="base64" compression="zstd"/>
+ </layer>
+ <objectgroup id="2" name="Monsters" offsetx="-96" offsety="0"/>
+ <objectgroup id="3" name="Speed_Boost_Blocks" offsetx="-10.6667" offsety="9.33333"/>
+ <objectgroup id="4" name="Jump_Boost_Block"/>
+ <objectgroup id="10" name="Слой объектов 4" offsetx="-225.333" offsety="-8"/>
+</map>
